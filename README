@@ -1,0 +1,8 @@
+Browserstack tunnel
+===================
+
+A docker image to run the [Browserstack](http://www.browserstack.com/) local tunnel.
+
+To achieve a reliable connection, running the container with `--net host` is advised.
+
+The container expects a KEY environment variable with the Browserstack key, and can take an ARGS environment variable to pass additional arguments to the tunnel binary.
